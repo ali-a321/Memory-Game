@@ -49,7 +49,7 @@ const check = () => {
     return (
         <div className='container'> 
             <div className='title'> Memory Game </div>
-            <div className='scoreboard'> Score: {score}  HighScore: {highScore} </div>
+            <div className='scoreboard'> Score: {score}  Last Score: {highScore} </div>
             <div className="result"> {checkWinner? "You have Won! Great Memory!!": ""}  </div>
             
             <CardArray
